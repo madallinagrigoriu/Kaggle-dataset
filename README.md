@@ -10,7 +10,7 @@
 2.2 Open each CSV file with Notepad and remove the " " using CTR+H 
 2.3 Upload each dataset in MSSQL in Master DB as:
 - right click -> Tasks -> Import Data -> Choose a data source (screenshot attached) -> Flat file source -> upload one CSV file 
-- For 'Choose Destination' choose 'SQL Server Native Client 11.0' -> check the database name to be 'master' -> Next -> Finish 
+- From 'Choose Destination' window choose 'SQL Server Native Client 11.0' -> check the database name to be 'master' -> Next -> Finish 
 - repeat the previous step until all the CSV's are uploaded succesfully in your DB 
 3. Check the datatype for each column to match the value type, if not modify it 
 4. Open each question in mssql in order to see the query and the values
